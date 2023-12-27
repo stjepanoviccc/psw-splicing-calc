@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PSW Splicing Calculator</title>
     <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <button class="test">Testing</button>
-
+    <header>
+        <h1 class="title">PSW Splicing Calculator</h1>
+        
+    </header>
+    <main>
+        <div class="calculatorWrap">
+            <form>
+                <label class="label" for="firstStat">First Stat: <span id="firstLabelStatSpan">60%</span></label>
+                <input class="input" type="number" id="firstStat" min="1111" max="5555" value="1111" /><br>
+                <label class="label" for="secondStat">Second Stat: <span id="secondLabelStatSpan">60%</span></label>
+                <input class="input" type="number" id="secondStat" min="1111" max="5555" value="1111" />
+                <button class="button" type="submit" id="calculatorApplyJs">Apply</button>
+            </form>
+            <div class="calculatorWrapItem">
+                <h2 class="subtitle">Best Case</h2>
+                <p class="calculatedValue" id="calculatedValueBestCase">1111 - 60%</p>
+            </div>
+            <div class="calculatorWrapItem">
+                <h2 class="subtitle">Worst Case</h2>
+                <p class="calculatedValue" id="calculatedValueWorstCase">1111 - 60%</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <a class="linkToGame" href="https://www.byond.com/games/Mitz001/psw" target="_blank">Play this game</a>
+        <p class="footerText">Created by <a class="footerText" href="https://github.com/stjepanoviccc" target="_blank">Adrionzola.</a></p>
+    </footer>
     <script src="./script.js" type="text/javascript"></script>
 </body>
 </html>
