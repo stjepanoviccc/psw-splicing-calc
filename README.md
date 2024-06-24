@@ -9,6 +9,5 @@ Helper for new(and old) psw players to count should they splice their mon or no.
 Main technologies which are used in this project are **Javascript** and **CSS**
 
 ## Author
-Andrej Stjepanović  
-Student at the **Faculty of Technical Sciences** in Novi Sad  
-Undergraduate of Software Engineering
+Andrej Stjepanović,  
+Software Developer
